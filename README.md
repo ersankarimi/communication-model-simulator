@@ -7,6 +7,8 @@ yang dibangun menggunakan **Vue 3** dan sisi **server** yang menggunakan
 Terdistribusi** dengan judul **Simulasi Interaktif Model Komunikasi dalam Sistem
 Terdistribusi**.
 
+![Tux, the Linux mascot](/cover.png)
+
 ## Struktur Proyek
 
 ```
