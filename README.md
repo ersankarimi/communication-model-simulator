@@ -32,7 +32,7 @@ Pastikan Anda telah menginstal hal-hal berikut:
 - **Node.js**: [Unduh Node.js](https://nodejs.org/)
 - **pnpm**: Anda dapat menginstalnya dengan perintah berikut:
   ```bash
-  npm install -g pnpm
+  npm install -g pnpm@9.2.0
   ```
 
 ### Instruksi Setup
