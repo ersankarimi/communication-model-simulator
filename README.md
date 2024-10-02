@@ -3,7 +3,9 @@
 Proyek ini mensimulasikan dua model komunikasi: **Request-Response** dan
 **Publish-Subscribe**. Proyek dibagi menjadi dua bagian, yaitu sisi **client**
 yang dibangun menggunakan **Vue 3** dan sisi **server** yang menggunakan
-**Node.js** dengan **Socket.io**.
+**Node.js** dengan **Socket.io**. Ini merupakan tugas untuk mata kuliah **Sistem
+Terdistribusi** dengan judul **Simulasi Interaktif Model Komunikasi dalam Sistem
+Terdistribusi**.
 
 ## Struktur Proyek
 
@@ -28,15 +30,17 @@ yang dibangun menggunakan **Vue 3** dan sisi **server** yang menggunakan
 Pastikan Anda telah menginstal hal-hal berikut:
 
 - **Node.js**: [Unduh Node.js](https://nodejs.org/)
-- **npm** atau **yarn**: Sudah termasuk saat menginstal Node.js (npm
-  direkomendasikan)
+- **pnpm**: Anda dapat menginstalnya dengan perintah berikut:
+  ```bash
+  npm install -g pnpm
+  ```
 
 ### Instruksi Setup
 
 #### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/username-anda/communication-models-simulation.git
+git clone https://github.com/ersankarimi/communication-models-simulation.git
 cd communication-models-simulation
 ```
 
@@ -48,14 +52,14 @@ Anda perlu menginstal dependensi untuk direktori `client` dan `server`.
 
 ```bash
 cd client
-npm install
+pnpm install
 ```
 
 ##### Server (Node.js)
 
 ```bash
 cd ../server
-npm install
+pnpm install
 ```
 
 ### Menjalankan Aplikasi
@@ -66,7 +70,7 @@ Pada direktori `server`, jalankan server Node.js:
 
 ```bash
 cd server
-npm start
+node server.js
 ```
 
 Server akan berjalan pada `http://localhost:3000` secara default.
@@ -77,11 +81,11 @@ Pada direktori `client`, jalankan aplikasi Vue 3:
 
 ```bash
 cd client
-npm run dev
+pnpm run dev
 ```
 
 Ini akan membuka aplikasi client di browser Anda, biasanya di
-`http://localhost:5173`.
+`http://localhost:5178`.
 
 ### Penjelasan
 
